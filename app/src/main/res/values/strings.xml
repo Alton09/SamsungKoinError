@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Samsung Koin Error</string>
+    <string name="person_test">Person Object = %1$s</string>
+</resources>
