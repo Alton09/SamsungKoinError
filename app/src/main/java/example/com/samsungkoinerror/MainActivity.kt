@@ -11,6 +11,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        text.setText(getString(R.string.person_test, person))
+    }
+
+    override fun onResume() {
+        super.onResume()
+        person_message.setText("Person Object Memory Address = $person")
     }
 }

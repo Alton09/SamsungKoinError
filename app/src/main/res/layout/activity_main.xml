@@ -8,10 +8,10 @@
         tools:context=".MainActivity">
 
     <TextView
-            android:id="@+id/text"
+            android:id="@+id/person_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/person_test"
+            android:text="Hello!"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"

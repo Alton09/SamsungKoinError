@@ -6,9 +6,10 @@ import org.koin.dsl.module.module
 
 class TestApp: Application() {
 
+    val module = module {single { Person("Bob") }}
+
     override fun onCreate() {
         super.onCreate()
-
-        startKoin(this, listOf(module {single { Person("Bob") }}))
+        startKoin(this, listOf(module))
     }
 }
